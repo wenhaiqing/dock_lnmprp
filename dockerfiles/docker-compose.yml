@@ -1,0 +1,83 @@
+version: "2"
+services:
+  mysql:
+    build: ./mysql
+    image: dockerfiles_mysql
+    container_name: "dockerfiles_mysql"
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./home/data/mysql:/var/lib/mysql
+      - ./home/conf/my.cnf:/etc/mysql/conf.d/my.cnf
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      TZ: Asia/Shanghai
+
+  redis:
+    build: ./redis
+    image: dockerfiles_redis
+    container_name: "dockerfiles_redis"
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./home/data/redis:/data
+    environment: 
+      TZ: Asia/Shanghai
+
+  php:
+    build: ./php
+    image: dockerfiles_php
+    container_name: "dockerfiles_php"
+    ports:
+      - "9000:9000"
+    volumes:
+      - ../website:/var/www/html
+      - ./home/conf/php.ini:/usr/local/etc/php/php.ini
+    links:
+      - "mysql" # service名称
+      - "redis"
+    environment: 
+      TZ: Asia/Shanghai
+
+  nginx:
+    build: ./nginx
+    image: dockerfiles_nginx
+    container_name: "dockerfiles_nginx"
+    ports:
+      - "80:80"
+    volumes:
+      - ../website:/usr/share/nginx/html
+      - ./home/conf/nginx:/etc/nginx
+      - ./home/logs/nginx:/var/log/nginx
+    links:
+      - "php"
+    environment:
+      TZ: Asia/Shanghai
+
+  phpmyadmin:
+    build: ./phpmyadmin
+    image: dockerfiles_phpmyadmin
+    container_name: "dockerfiles_phpmyadmin"
+    ports:
+      - "8080:80"
+    links:
+      - "mysql"
+      - "php"
+    environment:
+      PMA_HOST: mysql #主机连接项必须制定上面的mysql
+      #PMA_USER: root
+      #PMA_PASSWORD: 123456
+
+  phpredisadmin:
+    build: ./phpredisadmin
+    image: dockerfiles_phpredisadmin
+    container_name: "dockerfiles_phpredisadmin"
+    ports:
+      - "8081:80"
+    links:
+      - "redis"
+    environment:
+      REDIS_1_HOST: redis
+      REDIS_1_NAME: root
+      REDIS_1_PORT: 6379
+
