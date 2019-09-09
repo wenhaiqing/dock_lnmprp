@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/component" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/easyswoole" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/http" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/log" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/mysqli" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/mysqli-pool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/redis-pool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/spl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/trigger" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/utility" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/easyswoole/validate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/firebase/php-jwt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/jeremeamia/superclosure" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/nikic/fast-route" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/nikic/php-parser" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/psr/http-message" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/swoole/ide-helper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/symfony/polyfill-php56" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/symfony/polyfill-util" vcs="Git" />
+  </component>
+</project>
