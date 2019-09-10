@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="309f1d08-601d-4531-82cd-55cd12ef5d86" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../dockerfiles/home/conf/nginx/conf.d/es.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../../dockerfiles/home/conf/nginx/conf.d/es.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../dockerfiles/home/data/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../../dockerfiles/home/data/mysql/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../dockerfiles/home/data/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../../dockerfiles/home/data/mysql/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dockerfiles/home/data/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/../../dockerfiles/home/data/mysql/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dockerfiles/php/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../dockerfiles/php/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dockerfiles/sources.list" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/pid.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/pid.pid" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,25 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/HttpController/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1951" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/HttpController/Index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2171" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/App/HttpController/Router.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+            <state relative-caret-position="273">
+              <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -272,12 +258,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567587195038</updated>
-      <workItem from="1567587197204" duration="15329000" />
+      <workItem from="1567587197204" duration="15934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15329000" />
+    <option name="totallyTimeSpent" value="15934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1924" height="1056" extended-state="0" />
@@ -341,16 +327,6 @@
     <entry file="file://$PROJECT_DIR$/App/Models/Product.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/HttpController/Base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1951" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/HttpController/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2171" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Log/swoole.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -380,8 +356,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/HttpController/Router.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        <state relative-caret-position="702">
+          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
         </state>
       </provider>
     </entry>

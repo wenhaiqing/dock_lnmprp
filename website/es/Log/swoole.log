@@ -79,3 +79,83 @@ You can read How to report a bug doc before submitting any bug reports:
 Please do not send bug reports in the mailing list or personal letters.
 The issue page is also suitable to submit feature requests.
 
+[2019-09-10 16:44:43 *28.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to root@mysql at port 3306 fail: 1040 SQLSTATE[oo ma] [1040] ny connections in /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#1 /var/www/html/es/vendor/easyswoole/mysqli-pool/src/Connection.php(20): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#2 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(136): EasySwoole\MysqliPool\Connection->gc()
+#3 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(163): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object(EasySwoole\MysqliPool\Connection))
+#4 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(178): EasySwoole\Component\Pool\AbstractPool->gcObject(15)
+#5 {main}
+  thrown in /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-09-10 16:44:43 $16.0]	WARNING	swManager_check_exit_status: worker#1[pid=28] abnormal exit, status=255, signal=0
+[2019-09-10 16:57:13 *31.4]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to root@mysql at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Connection refused in /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /var/www/html/es/vendor/easyswoole/mysqli-pool/src/Connection.php(20): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(136): EasySwoole\MysqliPool\Connection->gc()
+#6 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(163): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object(EasySwoole\MysqliPool\Connec in /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-09-10 16:57:13 *30.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to root@mysql at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Connection refused in /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /var/www/html/es/vendor/easyswoole/mysqli-pool/src/Connection.php(20): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(136): EasySwoole\MysqliPool\Connection->gc()
+#6 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(163): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object(EasySwoole\MysqliPool\Connec in /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-09-10 16:57:13 *29.2]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to root@mysql at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Connection refused in /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /var/www/html/es/vendor/easyswoole/mysqli-pool/src/Connection.php(20): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(136): EasySwoole\MysqliPool\Connection->gc()
+#6 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(163): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object(EasySwoole\MysqliPool\Connec in /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-09-10 16:57:13 $16.0]	WARNING	swManager_check_exit_status: worker#3[pid=30] abnormal exit, status=255, signal=0
+[2019-09-10 16:57:13 *33.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to root@mysql at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Connection refused in /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /var/www/html/es/vendor/easyswoole/mysqli-pool/src/Connection.php(20): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(136): EasySwoole\MysqliPool\Connection->gc()
+#6 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(163): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object(EasySwoole\MysqliPool\Connec in /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-09-10 16:57:13 *34.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to root@mysql at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Connection refused in /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /var/www/html/es/vendor/easyswoole/mysqli-pool/src/Connection.php(20): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(136): EasySwoole\MysqliPool\Connection->gc()
+#6 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(163): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object(EasySwoole\MysqliPool\Connec in /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-09-10 16:57:13 *32.5]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to root@mysql at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Connection refused in /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /var/www/html/es/vendor/easyswoole/mysqli-pool/src/Connection.php(20): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(136): EasySwoole\MysqliPool\Connection->gc()
+#6 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(163): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object(EasySwoole\MysqliPool\Connec in /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-09-10 16:57:13 *27.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to root@mysql at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Connection refused in /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /var/www/html/es/vendor/easyswoole/mysqli-pool/src/Connection.php(20): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(136): EasySwoole\MysqliPool\Connection->gc()
+#6 /var/www/html/es/vendor/easyswoole/component/src/Pool/AbstractPool.php(163): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object(EasySwoole\MysqliPool\Connec in /var/www/html/es/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-09-10 16:57:13 $16.0]	WARNING	swManager_check_exit_status: worker#2[pid=29] abnormal exit, status=255, signal=0
+[2019-09-10 16:57:13 $16.0]	WARNING	swManager_check_exit_status: worker#6[pid=33] abnormal exit, status=255, signal=0
+[2019-09-10 16:57:13 $16.0]	WARNING	swManager_check_exit_status: worker#4[pid=31] abnormal exit, status=255, signal=0
+[2019-09-10 16:57:13 $16.0]	WARNING	swManager_check_exit_status: worker#0[pid=27] abnormal exit, status=255, signal=0
+[2019-09-10 16:57:13 $16.0]	WARNING	swManager_check_exit_status: worker#7[pid=34] abnormal exit, status=255, signal=0
+[2019-09-10 16:57:13 $16.0]	WARNING	swManager_check_exit_status: worker#5[pid=32] abnormal exit, status=255, signal=0
