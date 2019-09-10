@@ -159,3 +159,430 @@ Stack trace:
 [2019-09-10 16:57:13 $16.0]	WARNING	swManager_check_exit_status: worker#0[pid=27] abnormal exit, status=255, signal=0
 [2019-09-10 16:57:13 $16.0]	WARNING	swManager_check_exit_status: worker#7[pid=34] abnormal exit, status=255, signal=0
 [2019-09-10 16:57:13 $16.0]	WARNING	swManager_check_exit_status: worker#5[pid=32] abnormal exit, status=255, signal=0
+[2019-09-10 17:08:53 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=99] does not exists
+[2019-09-10 17:08:53 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=565] does not exists
+[2019-09-10 17:08:53 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=979] does not exists
+[2019-09-10 17:08:53 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 297 byte failed, because connection[fd=829] is closed
+[2019-09-10 17:08:53 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 297 byte failed, because connection[fd=988] is closed
+[2019-09-10 17:08:53 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1538] does not exists
+[2019-09-10 17:08:53 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 297 byte failed, because connection[fd=1280] is closed
+[2019-09-10 17:08:53 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 297 byte failed, because connection[fd=281] is closed
+[2019-09-10 17:08:53 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=266] does not exists
+[2019-09-10 17:08:53 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 297 byte failed, because connection[fd=1145] is closed
+[2019-09-10 17:08:53 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=395] does not exists
+[2019-09-10 17:08:53 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 297 byte failed, because connection[fd=1482] is closed
+[2019-09-10 17:08:53 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=337] does not exists
+[2019-09-10 17:08:53 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1536] does not exists
+[2019-09-10 17:08:53 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1537] does not exists
+[2019-09-10 17:08:53 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1202] does not exists
+[2019-09-10 17:08:53 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1254] does not exists
+[2019-09-10 17:08:53 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1232] does not exists
+[2019-09-10 17:08:53 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1149] does not exists
+[2019-09-10 17:08:53 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1523] does not exists
+[2019-09-10 17:08:53 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1257] does not exists
+[2019-09-10 17:08:53 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1393] does not exists
+[2019-09-10 17:08:53 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1428] does not exists
+[2019-09-10 17:08:53 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1489] does not exists
+[2019-09-10 17:08:53 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1468] does not exists
+[2019-09-10 17:08:53 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1289] does not exists
+[2019-09-10 17:08:53 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1578] does not exists
+[2019-09-10 17:08:53 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1204] does not exists
+[2019-09-10 17:08:53 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1234] does not exists
+[2019-09-10 17:08:53 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1531] does not exists
+[2019-09-10 17:08:53 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1201] does not exists
+[2019-09-10 17:08:53 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1292] does not exists
+[2019-09-10 17:08:53 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1593] does not exists
+[2019-09-10 17:08:53 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1525] does not exists
+[2019-09-10 17:08:53 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1244] does not exists
+[2019-09-10 17:08:53 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1265] does not exists
+[2019-09-10 17:08:53 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1418] does not exists
+[2019-09-10 17:08:53 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1441] does not exists
+[2019-09-10 17:08:53 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1192] does not exists
+[2019-09-10 17:08:53 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1424] does not exists
+[2019-09-10 17:08:53 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1293] does not exists
+[2019-09-10 17:08:53 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1479] does not exists
+[2019-09-10 17:08:53 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1496] does not exists
+[2019-09-10 17:08:53 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1237] does not exists
+[2019-09-10 17:08:53 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1511] does not exists
+[2019-09-10 17:08:53 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1227] does not exists
+[2019-09-10 17:08:53 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1240] does not exists
+[2019-09-10 17:08:53 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1598] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1569] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1214] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1180] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1564] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1165] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1545] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1494] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1466] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1229] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1587] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1566] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1231] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1219] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1563] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1190] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1532] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1575] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1526] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1554] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1513] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1499] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1258] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1175] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1417] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1203] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1245] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1284] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1450] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1212] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1592] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1475] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1405] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1266] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1502] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1403] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1488] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1530] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1188] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1432] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1278] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1492] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1421] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1220] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1253] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1447] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1207] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1296] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1216] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1196] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1185] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1419] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1179] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1286] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1465] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1581] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1542] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1436] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1171] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1177] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1168] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1501] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1516] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1470] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1464] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1477] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1580] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1553] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1281] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1483] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1298] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1223] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1589] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1262] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1225] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1596] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1490] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1491] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1600] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1294] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1191] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1413] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1228] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1422] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1276] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1455] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1184] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1551] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1461] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1444] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1448] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1416] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1577] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1534] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1431] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1460] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1433] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1287] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1440] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1549] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1541] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1480] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1485] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1446] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1449] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1420] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1344] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1288] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1269] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1503] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1597] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1407] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1187] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1472] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1469] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1512] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1251] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1414] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1429] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1458] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1529] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1595] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1224] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1243] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1430] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1486] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1591] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1263] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1527] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1438] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1290] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1445] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1584] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1434] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1409] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1277] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1250] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1300] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1404] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1459] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1524] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1402] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1557] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1547] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1585] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1515] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1507] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1517] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1528] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1279] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1508] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1572] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1183] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1189] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1579] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1474] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1260] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1427] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1195] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1249] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1463] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1297] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1255] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1552] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1241] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1590] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1495] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1221] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1500] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1283] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1473] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1176] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1435] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1555] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1599] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1457] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1544] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1518] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1574] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1197] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1535] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1410] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1546] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1275] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1453] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1247] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1521] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1211] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1239] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1172] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1301] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1248] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1206] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1406] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1543] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1548] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1411] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1559] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1246] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1291] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1594] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1570] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1205] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1217] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1267] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1252] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1583] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1571] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1533] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1588] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1582] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1233] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1573] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1272] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1226] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1412] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1540] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1274] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1167] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1423] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1426] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1576] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1562] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1282] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1295] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1182] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1213] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1270] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1169] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=568] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1242] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1408] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1256] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1454] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1451] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1467] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1505] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1567] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1471] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1568] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1437] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1481] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1285] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1425] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1218] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1209] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1493] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1520] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1439] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1556] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1215] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1443] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1271] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1487] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1497] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1478] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1586] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1514] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1558] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1210] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1200] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1261] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1186] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1273] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1476] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1462] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1181] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1442] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1522] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1550] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1561] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1268] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1400] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1509] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1208] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1173] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1510] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=250] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1560] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=609] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=551] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1452] does not exists
+[2019-09-10 17:08:54 *25.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=351] does not exists
+[2019-09-10 17:08:54 *29.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=84] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1193] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1565] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=202] does not exists
+[2019-09-10 17:08:54 *30.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=37] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=385] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=343] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1519] does not exists
+[2019-09-10 17:08:54 *31.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=326] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1235] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1504] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=533] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1506] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=623] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1456] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=1222] does not exists
+[2019-09-10 17:08:54 *27.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=348] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=283] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=659] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=319] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=305] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=203] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=688] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=225] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=382] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=215] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=9] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=526] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=538] does not exists
+[2019-09-10 17:08:54 *26.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=249] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=51] does not exists
+[2019-09-10 17:08:54 *32.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=394] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=543] does not exists
+[2019-09-10 17:08:54 *28.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=658] does not exists
+[2019-09-10 17:32:34 $175.0]	WARNING	swManager_check_exit_status: worker#4[pid=190] abnormal exit, status=0, signal=11
+A bug occurred in Swoole-v4.4.4, please report it.
+The Swoole developers probably don't know about it,
+and unless you report it, chances are it won't be fixed.
+You can read How to report a bug doc before submitting any bug reports:
+>> https://github.com/swoole/swoole-src/issues/2000
+Please do not send bug reports in the mailing list or personal letters.
+The issue page is also suitable to submit feature requests.
+
+[2019-09-10 17:35:34 $175.0]	WARNING	swManager_check_exit_status: worker#7[pid=193] abnormal exit, status=0, signal=11
+A bug occurred in Swoole-v4.4.4, please report it.
+The Swoole developers probably don't know about it,
+and unless you report it, chances are it won't be fixed.
+You can read How to report a bug doc before submitting any bug reports:
+>> https://github.com/swoole/swoole-src/issues/2000
+Please do not send bug reports in the mailing list or personal letters.
+The issue page is also suitable to submit feature requests.
+
+[2019-09-10 17:43:04 $175.0]	WARNING	swManager_check_exit_status: worker#6[pid=192] abnormal exit, status=0, signal=11
+A bug occurred in Swoole-v4.4.4, please report it.
+The Swoole developers probably don't know about it,
+and unless you report it, chances are it won't be fixed.
+You can read How to report a bug doc before submitting any bug reports:
+>> https://github.com/swoole/swoole-src/issues/2000
+Please do not send bug reports in the mailing list or personal letters.
+The issue page is also suitable to submit feature requests.
+
+[2019-09-10 17:50:34 $175.0]	WARNING	swManager_check_exit_status: worker#0[pid=186] abnormal exit, status=0, signal=11
+A bug occurred in Swoole-v4.4.4, please report it.
+The Swoole developers probably don't know about it,
+and unless you report it, chances are it won't be fixed.
+You can read How to report a bug doc before submitting any bug reports:
+>> https://github.com/swoole/swoole-src/issues/2000
+Please do not send bug reports in the mailing list or personal letters.
+The issue page is also suitable to submit feature requests.
+
+[2019-09-10 17:56:34 $175.0]	WARNING	swManager_check_exit_status: worker#3[pid=189] abnormal exit, status=0, signal=11
+A bug occurred in Swoole-v4.4.4, please report it.
+The Swoole developers probably don't know about it,
+and unless you report it, chances are it won't be fixed.
+You can read How to report a bug doc before submitting any bug reports:
+>> https://github.com/swoole/swoole-src/issues/2000
+Please do not send bug reports in the mailing list or personal letters.
+The issue page is also suitable to submit feature requests.
+
+[2019-09-10 18:02:34 $175.0]	WARNING	swManager_check_exit_status: worker#2[pid=188] abnormal exit, status=0, signal=11
+A bug occurred in Swoole-v4.4.4, please report it.
+The Swoole developers probably don't know about it,
+and unless you report it, chances are it won't be fixed.
+You can read How to report a bug doc before submitting any bug reports:
+>> https://github.com/swoole/swoole-src/issues/2000
+Please do not send bug reports in the mailing list or personal letters.
+The issue page is also suitable to submit feature requests.
+
+[2019-09-10 18:10:04 $175.0]	WARNING	swManager_check_exit_status: worker#5[pid=191] abnormal exit, status=0, signal=11
+A bug occurred in Swoole-v4.4.4, please report it.
+The Swoole developers probably don't know about it,
+and unless you report it, chances are it won't be fixed.
+You can read How to report a bug doc before submitting any bug reports:
+>> https://github.com/swoole/swoole-src/issues/2000
+Please do not send bug reports in the mailing list or personal letters.
+The issue page is also suitable to submit feature requests.
+

@@ -26,7 +26,7 @@ class ProductSku extends Base
 				//虽然没有更新成功，但是返回true，暂不确定原因，待查
 //			->where('stock',$amount,'>=')
 //				->update($this->tableName,['stock'=>$this->db->dec($amount)]);
-			$res = $this->db->rawQuery("UPDATE ln_product_skus set stock=stock-1 WHERE id='".$id."' AND stock>='".$amount."' FOR UPDATE");
+			$res = $this->db->rawQuery("UPDATE ln_product_skus set stock=stock-1 WHERE id='".$id."' AND stock>='".$amount."'");
 			if (!$res){
 //			Logger::getInstance()->log($this->db->where('id',$id)->getOne($this->tableName,'stock')['stock']);
 				return '库存不足';
