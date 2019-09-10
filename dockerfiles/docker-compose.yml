@@ -32,7 +32,6 @@ services:
       - "9000:9000"
     volumes:
       - ../website:/var/www/html
-      - ./home/conf/php:/usr/local/etc/php
     links:
       - "mysql" # service名称
       - "redis"
