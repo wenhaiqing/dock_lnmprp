@@ -6,8 +6,13 @@ FROM php:7.2-fpm
 RUN docker-php-ext-install -j$(nproc) bcmath calendar exif gettext \
 sockets dba mysqli pcntl pdo_mysql shmop sysvmsg sysvsem sysvshm
 
+#切换源
+COPY ./sources.list /etc/apt/sources.list
+RUN cat /etc/apt/sources.list
+RUN rm -Rf /var/lib/apt/lists/*
+
 # 1.0.7 增加 soap 扩展
-RUN apt-get update && \
+RUN apt-get update -y && \
 	apt-get install -y --no-install-recommends \ 
 	libxml2-dev libtidy-dev libxslt1-dev zlib1g-dev \ 
 	&& rm -r /var/lib/apt/lists/* \ 
