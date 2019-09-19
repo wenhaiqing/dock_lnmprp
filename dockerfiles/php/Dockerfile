@@ -7,16 +7,16 @@ RUN docker-php-ext-install -j$(nproc) bcmath calendar exif gettext \
 sockets dba mysqli pcntl pdo_mysql shmop sysvmsg sysvsem sysvshm
 
 #切换源
-COPY ./sources.list /etc/apt/sources.list
-RUN cat /etc/apt/sources.list
-RUN rm -Rf /var/lib/apt/lists/*
+#COPY ./sources.list /etc/apt/sources.list
+#RUN cat /etc/apt/sources.list
+#RUN rm -Rf /var/lib/apt/lists/*
 
 # 1.0.7 增加 soap 扩展
 RUN apt-get update -y && \
 	apt-get install -y --no-install-recommends \ 
-	libxml2-dev libtidy-dev libxslt1-dev zlib1g-dev \ 
+	libxml2-dev libtidy-dev libxslt1-dev zlib1g-dev libpng-dev git zip unzip \ 
 	&& rm -r /var/lib/apt/lists/* \ 
-	&& docker-php-ext-install -j$(nproc) soap
+	&& docker-php-ext-install -j$(nproc) soap gd
     
 # 使用pecl安装扩展，记得在php.ini中添加配置项(grpc依赖于zlib1g-dev扩展)
 #RUN pecl install grpc \
